@@ -72,6 +72,6 @@ public class Mostrar_coleccion_GUI extends javax.swing.JPanel {
     private javax.swing.JScrollBar jScrollBar1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel jlb_titulo;
-    private javax.swing.JTextArea jta_espacio_coleccion;
+    public javax.swing.JTextArea jta_espacio_coleccion;
     // End of variables declaration//GEN-END:variables
 }

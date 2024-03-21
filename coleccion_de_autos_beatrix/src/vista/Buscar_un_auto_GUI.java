@@ -73,16 +73,13 @@ public class Buscar_un_auto_GUI extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(16, 16, 16)
-                                .addComponent(jlb_ano_serie)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jlb_ano_serie))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(8, 8, 8)
-                                .addComponent(jtf_ano_serie, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jtf_ano_serie, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(8, 8, 8)
-                                .addComponent(jtf_numero_del_auto_en_la_serie, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jtf_numero_del_auto_en_la_serie, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jlb_numero_del_auto_en_la_serie)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(28, 28, 28)
@@ -132,7 +129,7 @@ public class Buscar_un_auto_GUI extends javax.swing.JPanel {
     private javax.swing.JLabel jlb_numero_del_auto_en_la_serie;
     private javax.swing.JLabel jlb_subtitulo;
     private javax.swing.JLabel jlb_titulo;
-    private javax.swing.JTextArea jta_informacion_del_auto;
+    public javax.swing.JTextArea jta_informacion_del_auto;
     public javax.swing.JTextField jtf_ano_serie;
     public javax.swing.JTextField jtf_numero_del_auto_en_la_serie;
     // End of variables declaration//GEN-END:variables
