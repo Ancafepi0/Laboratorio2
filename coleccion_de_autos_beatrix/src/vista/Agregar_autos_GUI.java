@@ -26,6 +26,7 @@ public class Agregar_autos_GUI extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jScrollBar1 = new javax.swing.JScrollBar();
         jtf_ano_serie = new javax.swing.JTextField();
         jtf_marca = new javax.swing.JTextField();
         jtf_color = new javax.swing.JTextField();
@@ -178,6 +179,7 @@ public class Agregar_autos_GUI extends javax.swing.JPanel {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JScrollBar jScrollBar1;
     private javax.swing.JLabel jlb_ano_serie;
     private javax.swing.JLabel jlb_cant_total_serie;
     private javax.swing.JLabel jlb_color;
