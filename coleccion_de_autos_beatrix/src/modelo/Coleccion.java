@@ -13,7 +13,7 @@ public class Coleccion {
 	public Coleccion(){
         }
 
-	
+	/*metodo para agregar autos**********************************************************************/
 	public void agregar_auto(Auto carrito){
 
 		autos.add(carrito);
@@ -39,7 +39,7 @@ public class Coleccion {
 		}
 		return 0;
 	}
-	/**M*************************************************************************************/	
+	/**Metodo para mostrar la coleccion*************************************************************************/	
 	public String listar_coleccion(){
 
             Auto un_carro= new Auto();
@@ -55,7 +55,8 @@ public class Coleccion {
             }
             return coleccion;
 	}
-	/*****************************************************************************************/
+        
+	/****Metodo para buscar un auto******************************************************************************/
 	public String buscar_un_auto(int ano_serie, int numero_de_serie){
 
 		Auto un_carro= new Auto();	
