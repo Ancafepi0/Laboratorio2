@@ -184,9 +184,9 @@ public class Agregar_autos_GUI extends javax.swing.JPanel {
     private javax.swing.JLabel jlb_marca;
     private javax.swing.JLabel jlb_numero_de_serie;
     public javax.swing.JTextField jtf_ano_serie;
-    public javax.swing.JTextField jtf_cant_total_serie;
-    public javax.swing.JTextField jtf_color;
-    public javax.swing.JTextField jtf_marca;
-    public javax.swing.JTextField jtf_numero_de_serie;
+    private javax.swing.JTextField jtf_cant_total_serie;
+    private javax.swing.JTextField jtf_color;
+    private javax.swing.JTextField jtf_marca;
+    private javax.swing.JTextField jtf_numero_de_serie;
     // End of variables declaration//GEN-END:variables
 }
