@@ -15,7 +15,7 @@ public class Controlador_borrar_un_auto_GUI implements ActionListener {
     //Metodos///////////////////////////////////////////
      //meotdo constructor
     public void Controlador_borrar_un_auto_GUI(){
-        //inicializacion de la vista y el objeto coleccion
+        //inicializacion de la vistas y el objeto coleccion
         vista_borrar_un_auto= new Borrar_un_auto_GUI();
         vista_agregar_autos= new Agregar_autos_GUI();
         mi_coleccion= new Coleccion();        
