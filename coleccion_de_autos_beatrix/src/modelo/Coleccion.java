@@ -63,11 +63,12 @@ public class Coleccion {
 			un_carro= autos.get(i);
 			if(un_carro.get_ano_serie() == ano_serie){
 				if(un_carro.get_numero_de_serie() == numero_de_serie){
-					datos_auto +=	"Año Serie: "+un_carro.get_ano_serie()+"\n"+
+					datos_auto +=	"Auto número " +(i+1)+"\n"+
+                                                        "Año Serie: "+un_carro.get_ano_serie()+"\n"+
 							"Marca: "+un_carro.get_marca()+"\n"+
 							"Color: "+un_carro.get_color()+"\n"+
 							"cantTotalSerie: "+un_carro.get_cant_total_serie()+"\n"+
-							"numeroSerie: "+un_carro.get_numero_de_serie()+"\n";
+							"numeroSerie: "+un_carro.get_numero_de_serie()+"\n" + "\n";
 					return datos_auto;
 				}
 			}

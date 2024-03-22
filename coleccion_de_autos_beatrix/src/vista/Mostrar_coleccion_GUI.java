@@ -30,12 +30,20 @@ public class Mostrar_coleccion_GUI extends javax.swing.JPanel {
         jta_espacio_coleccion = new javax.swing.JTextArea();
         jScrollBar1 = new javax.swing.JScrollBar();
         jlb_titulo = new javax.swing.JLabel();
+        jbtn_mostrar_coleccion = new javax.swing.JButton();
 
         jta_espacio_coleccion.setColumns(20);
         jta_espacio_coleccion.setRows(5);
         jScrollPane1.setViewportView(jta_espacio_coleccion);
 
         jlb_titulo.setText("Autos de la colección");
+
+        jbtn_mostrar_coleccion.setText("Mostrar toda la colección");
+        jbtn_mostrar_coleccion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_mostrar_coleccionActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -53,6 +61,10 @@ public class Mostrar_coleccion_GUI extends javax.swing.JPanel {
                         .addComponent(jlb_titulo)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGap(60, 60, 60)
+                .addComponent(jbtn_mostrar_coleccion)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -63,14 +75,21 @@ public class Mostrar_coleccion_GUI extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollBar1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE))
-                .addContainerGap(112, Short.MAX_VALUE))
+                .addGap(35, 35, 35)
+                .addComponent(jbtn_mostrar_coleccion)
+                .addContainerGap(54, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jbtn_mostrar_coleccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_mostrar_coleccionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_mostrar_coleccionActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JScrollBar jScrollBar1;
     private javax.swing.JScrollPane jScrollPane1;
+    public javax.swing.JButton jbtn_mostrar_coleccion;
     private javax.swing.JLabel jlb_titulo;
     public javax.swing.JTextArea jta_espacio_coleccion;
     // End of variables declaration//GEN-END:variables

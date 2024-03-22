@@ -1,7 +1,6 @@
 package control;
 import modelo.Auto;
 import modelo.Coleccion;
-import control.Controlador_borrar_un_auto_GUI;
 import vista.Agregar_autos_GUI;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -66,14 +65,15 @@ public class Controlador_agregar_autos_GUI implements ActionListener {
         
         //reaccion a si se oprime el boton agregar Mostrar la coleccion/////////////////////////////////////////////
         if (e.getSource()== this.vista_agregar_autos.jbtn_mostrar_coleccion){
-            
-            
+            Controlador_mostrar_coleccion_GUI mostrar_coleccion= new Controlador_mostrar_coleccion_GUI();
+            mostrar_coleccion.Controlador_mostrar_coleccion_GUI();
         }
      
         
         //reaccion a si se oprime el boton buscar un auto en la coleccion/////////////////////////////////////////////
         if (e.getSource()== this.vista_agregar_autos.jbtn_buscar_auto_en_la_coleccion){
-            
+            Controlador_buscar_un_auto_GUI buscar_auto= new Controlador_buscar_un_auto_GUI();
+            buscar_auto.Controlador_buscar_un_auto_GUI();
             
         }
     }

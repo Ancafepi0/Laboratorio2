@@ -1,11 +1,10 @@
 package control;
-import modelo.Auto;
 import modelo.Coleccion;
 import vista.Buscar_un_auto_GUI;
 import vista.Agregar_autos_GUI;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.JOptionPane;
+
 
 public class Controlador_buscar_un_auto_GUI implements ActionListener{
     //atributos
