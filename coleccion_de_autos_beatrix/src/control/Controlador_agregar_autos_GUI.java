@@ -15,7 +15,7 @@ public class Controlador_agregar_autos_GUI implements ActionListener {
     
     //Metodos
     //Metodo constructor
-    public void Controlador_agregar_autos(){
+public Controlador_agregar_autos_GUI(){
         //inicializacion de la vista y el objeto coleccion
         vista_agregar_autos= new Agregar_autos_GUI();
         mi_coleccion= new Coleccion();
@@ -28,7 +28,7 @@ public class Controlador_agregar_autos_GUI implements ActionListener {
         this.vista_agregar_autos.jbtn_borrar_auto_de_la_coleccion.addActionListener(this);
         this.vista_agregar_autos.jbtn_mostrar_coleccion.addActionListener(this);
         this.vista_agregar_autos.jbtn_buscar_auto_en_la_coleccion.addActionListener(this);
-    }
+    }    
     
 
     //Clase en la que van a llegar los eventos de la vista principal y reaccionara a ellos
@@ -48,7 +48,7 @@ public class Controlador_agregar_autos_GUI implements ActionListener {
             un_auto.set_color(this.vista_agregar_autos.jtf_color.getText());
    
             //validacion de que los campos para agregar un auto a la coleccion no se encuentren vacios
-            if (this.vista_agregar_autos.jtf_ano_serie != null && this.vista_agregar_autos.jtf_cant_total_serie != null && this.vista_agregar_autos.jtf_numero_de_serie != null && this.vista_agregar_autos.jtf_marca != null && this.vista_agregar_autos.jtf_color != null){
+            if (this.vista_agregar_autos.jtf_ano_serie.getText().isEmpty() || this.vista_agregar_autos.jtf_cant_total_serie.getText().isEmpty() || this.vista_agregar_autos.jtf_numero_de_serie.getText().isEmpty() || this.vista_agregar_autos.jtf_marca.getText().isEmpty() || this.vista_agregar_autos.jtf_color.getText().isEmpty()){
                 mi_coleccion.agregar_auto(un_auto);
             }
             else{

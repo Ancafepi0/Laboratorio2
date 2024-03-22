@@ -1,11 +1,11 @@
 package control;
-import modelo.Auto;
 import modelo.Coleccion;
 import vista.Borrar_un_auto_GUI;
 import vista.Agregar_autos_GUI;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
+
 public class Controlador_borrar_un_auto_GUI implements ActionListener {
     //atributos
      private Borrar_un_auto_GUI vista_borrar_un_auto;
@@ -14,7 +14,9 @@ public class Controlador_borrar_un_auto_GUI implements ActionListener {
     
     //Metodos///////////////////////////////////////////
      //meotdo constructor
-    public void Controlador_borrar_un_auto_GUI(){
+
+    public Controlador_borrar_un_auto_GUI() {
+        
         //inicializacion de la vistas y el objeto coleccion
         vista_borrar_un_auto= new Borrar_un_auto_GUI();
         vista_agregar_autos= new Agregar_autos_GUI();
@@ -25,7 +27,11 @@ public class Controlador_borrar_un_auto_GUI implements ActionListener {
         
         //hacer que se registre como una accion el apretar el boton de la vista borrar_un_auto_GUI
         this.vista_borrar_un_auto.jbtn_buscar_auto.addActionListener(this);
+    
     }
+    
+    
+    
     
     
     @Override

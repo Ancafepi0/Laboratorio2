@@ -15,7 +15,7 @@ public class Controlador_buscar_un_auto_GUI implements ActionListener{
      
     //Metodos///////////////////////////////////////////
      //meotdo constructor 
-    public void Controlador_buscar_un_auto_GUI(){
+    public Controlador_buscar_un_auto_GUI(){
         //inicializacion de las vistas y el objeto coleccion
         vista_buscar_un_auto= new Buscar_un_auto_GUI();
         vista_agregar_autos= new Agregar_autos_GUI();

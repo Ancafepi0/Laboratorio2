@@ -14,7 +14,7 @@ public class Controlador_mostrar_coleccion_GUI implements ActionListener{
     //Metodos///////////////////////////////////////////
      //meotdo constructor 
 
-    public void Controlador_mostrar_coleccion_GUI(){
+    public Controlador_mostrar_coleccion_GUI(){
         vista_mostrar_coleccion = new Mostrar_coleccion_GUI();
         vista_agregar_autos = new Agregar_autos_GUI();
         mi_coleccion = new Coleccion();
