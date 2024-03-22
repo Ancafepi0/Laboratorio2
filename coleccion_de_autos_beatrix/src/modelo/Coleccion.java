@@ -27,9 +27,6 @@ public class Coleccion {
 		for(int i=0; i<autos.size(); i++){
 			un_carro= autos.get(i);
 
-			System.out.println(un_carro.get_ano_serie());
-			System.out.println(un_carro.get_numero_de_serie());
-
 			if(un_carro.get_ano_serie() == ano_serie){
 				if(un_carro.get_numero_de_serie() == numero_de_serie){
 					autos.remove(i);

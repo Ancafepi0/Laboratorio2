@@ -28,15 +28,15 @@ public class Borrar_un_auto_GUI extends javax.swing.JPanel {
 
         jtf_ano_serie = new javax.swing.JTextField();
         jtf_numero_del_auto_en_la_serie = new javax.swing.JTextField();
-        jbtm_buscar_auto = new javax.swing.JButton();
+        jbtn_buscar_auto = new javax.swing.JButton();
         jlb_ano_serie = new javax.swing.JLabel();
         jlb_numero_del_auto_en_la_serie = new javax.swing.JLabel();
         jlb_titulo = new javax.swing.JLabel();
 
-        jbtm_buscar_auto.setText("Borrar el auto de la colección");
-        jbtm_buscar_auto.addActionListener(new java.awt.event.ActionListener() {
+        jbtn_buscar_auto.setText("Borrar el auto de la colección");
+        jbtn_buscar_auto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbtm_buscar_autoActionPerformed(evt);
+                jbtn_buscar_autoActionPerformed(evt);
             }
         });
 
@@ -67,7 +67,7 @@ public class Borrar_un_auto_GUI extends javax.swing.JPanel {
                         .addComponent(jlb_numero_del_auto_en_la_serie))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(55, 55, 55)
-                        .addComponent(jbtm_buscar_auto))
+                        .addComponent(jbtn_buscar_auto))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(107, 107, 107)
                         .addComponent(jlb_titulo)))
@@ -87,18 +87,18 @@ public class Borrar_un_auto_GUI extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jtf_numero_del_auto_en_la_serie, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(55, 55, 55)
-                .addComponent(jbtm_buscar_auto)
+                .addComponent(jbtn_buscar_auto)
                 .addGap(132, 132, 132))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jbtm_buscar_autoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtm_buscar_autoActionPerformed
+    private void jbtn_buscar_autoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_buscar_autoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jbtm_buscar_autoActionPerformed
+    }//GEN-LAST:event_jbtn_buscar_autoActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jbtm_buscar_auto;
+    public javax.swing.JButton jbtn_buscar_auto;
     private javax.swing.JLabel jlb_ano_serie;
     private javax.swing.JLabel jlb_numero_del_auto_en_la_serie;
     private javax.swing.JLabel jlb_titulo;

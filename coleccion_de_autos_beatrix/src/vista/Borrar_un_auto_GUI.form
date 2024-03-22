@@ -37,7 +37,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
-                      <Component id="jbtm_buscar_auto" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbtn_buscar_auto" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
@@ -62,7 +62,7 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jtf_numero_del_auto_en_la_serie" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
-              <Component id="jbtm_buscar_auto" min="-2" max="-2" attributes="0"/>
+              <Component id="jbtn_buscar_auto" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -79,13 +79,16 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="jbtm_buscar_auto">
+    <Component class="javax.swing.JButton" name="jbtn_buscar_auto">
       <Properties>
         <Property name="text" type="java.lang.String" value="Borrar el auto de la colecci&#xf3;n"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtm_buscar_autoActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtn_buscar_autoActionPerformed"/>
       </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="jlb_ano_serie">
       <Properties>

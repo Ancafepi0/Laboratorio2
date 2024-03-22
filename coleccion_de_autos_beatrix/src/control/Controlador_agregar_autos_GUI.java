@@ -1,6 +1,7 @@
 package control;
 import modelo.Auto;
 import modelo.Coleccion;
+import control.Controlador_borrar_un_auto_GUI;
 import vista.Agregar_autos_GUI;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -34,7 +35,7 @@ public class Controlador_agregar_autos_GUI implements ActionListener {
     //Clase en la que van a llegar los eventos de la vista principal y reaccionara a ellos
     @Override
     public void actionPerformed(ActionEvent e) {
-        //reaccion a si se oprime el boton agregar autos
+        //reaccion a si se oprime el boton agregar autos a la coleccion/////////////////////////////////////////////
         if (e.getSource()== this.vista_agregar_autos.jbtn_agregar_auto_a_la_coleccion){
                
             //creacion objeto auto
@@ -54,6 +55,25 @@ public class Controlador_agregar_autos_GUI implements ActionListener {
             else{
                 JOptionPane.showMessageDialog(null,"Por favor rellene el campo de año de serie", "El campo de el año de serie está vacio", 2);
             }
+            
+        }
+        //reaccion a si se oprime el boton borrar autos de la coleccion/////////////////////////////////////////////
+        if (e.getSource()== this.vista_agregar_autos.jbtn_borrar_auto_de_la_coleccion){
+            Controlador_borrar_un_auto_GUI borrar_auto= new Controlador_borrar_un_auto_GUI();
+            borrar_auto.Controlador_borrar_un_auto_GUI();
+            
+        }
+        
+        //reaccion a si se oprime el boton agregar Mostrar la coleccion/////////////////////////////////////////////
+        if (e.getSource()== this.vista_agregar_autos.jbtn_mostrar_coleccion){
+            
+            
+        }
+     
+        
+        //reaccion a si se oprime el boton buscar un auto en la coleccion/////////////////////////////////////////////
+        if (e.getSource()== this.vista_agregar_autos.jbtn_buscar_auto_en_la_coleccion){
+            
             
         }
     }
