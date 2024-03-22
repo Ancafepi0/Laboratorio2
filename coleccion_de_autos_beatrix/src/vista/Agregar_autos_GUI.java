@@ -37,10 +37,10 @@ public class Agregar_autos_GUI extends javax.swing.JPanel {
         jlb_color = new javax.swing.JLabel();
         jlb_cant_total_serie = new javax.swing.JLabel();
         jlb_numero_de_serie = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        jbtn_agregar_auto_a_la_coleccion = new javax.swing.JButton();
+        jbtn_borrar_auto_de_la_coleccion = new javax.swing.JButton();
+        jbtn_buscar_auto_en_la_coleccion = new javax.swing.JButton();
+        jbtn_mostrar_coleccion = new javax.swing.JButton();
 
         setPreferredSize(new java.awt.Dimension(306, 458));
 
@@ -66,13 +66,13 @@ public class Agregar_autos_GUI extends javax.swing.JPanel {
 
         jlb_numero_de_serie.setText("Numero del auto en la serie ");
 
-        jButton1.setText("Agregar un auto a la colección");
+        jbtn_agregar_auto_a_la_coleccion.setText("Agregar un auto a la colección");
 
-        jButton2.setText("Borrar un auto de la colección");
+        jbtn_borrar_auto_de_la_coleccion.setText("Borrar un auto de la colección");
 
-        jButton3.setText("Buscar un Auto");
+        jbtn_buscar_auto_en_la_coleccion.setText("Buscar un Auto");
 
-        jButton4.setText("Mostrar la colección");
+        jbtn_mostrar_coleccion.setText("Mostrar la colección");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -121,13 +121,13 @@ public class Agregar_autos_GUI extends javax.swing.JPanel {
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(28, 28, 28)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jButton4, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jbtn_mostrar_coleccion, javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(16, 16, 16)
-                                        .addComponent(jButton3)
+                                        .addComponent(jbtn_buscar_auto_en_la_coleccion)
                                         .addGap(10, 10, 10))))
-                            .addComponent(jButton2)
-                            .addComponent(jButton1))))
+                            .addComponent(jbtn_borrar_auto_de_la_coleccion)
+                            .addComponent(jbtn_agregar_auto_a_la_coleccion))))
                 .addContainerGap(44, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -154,13 +154,13 @@ public class Agregar_autos_GUI extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jtf_numero_de_serie, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(29, 29, 29)
-                .addComponent(jButton1)
+                .addComponent(jbtn_agregar_auto_a_la_coleccion)
                 .addGap(18, 18, 18)
-                .addComponent(jButton2)
+                .addComponent(jbtn_borrar_auto_de_la_coleccion)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton4)
+                .addComponent(jbtn_mostrar_coleccion)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton3)
+                .addComponent(jbtn_buscar_auto_en_la_coleccion)
                 .addGap(23, 23, 23))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -175,20 +175,20 @@ public class Agregar_autos_GUI extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JScrollBar jScrollBar1;
+    public javax.swing.JButton jbtn_agregar_auto_a_la_coleccion;
+    public javax.swing.JButton jbtn_borrar_auto_de_la_coleccion;
+    public javax.swing.JButton jbtn_buscar_auto_en_la_coleccion;
+    public javax.swing.JButton jbtn_mostrar_coleccion;
     private javax.swing.JLabel jlb_ano_serie;
     private javax.swing.JLabel jlb_cant_total_serie;
     private javax.swing.JLabel jlb_color;
     private javax.swing.JLabel jlb_marca;
     private javax.swing.JLabel jlb_numero_de_serie;
     public javax.swing.JTextField jtf_ano_serie;
-    private javax.swing.JTextField jtf_cant_total_serie;
-    private javax.swing.JTextField jtf_color;
-    private javax.swing.JTextField jtf_marca;
-    private javax.swing.JTextField jtf_numero_de_serie;
+    public javax.swing.JTextField jtf_cant_total_serie;
+    public javax.swing.JTextField jtf_color;
+    public javax.swing.JTextField jtf_marca;
+    public javax.swing.JTextField jtf_numero_de_serie;
     // End of variables declaration//GEN-END:variables
 }
